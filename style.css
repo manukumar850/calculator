@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #042e4f;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 20px;
+    width: 300px;
+    background: aqua;
+    height: fit-content;
+    border-radius: 3px;
+}
+.screen{
+    background: aqua;
+    border: none;
+    width: 93%;
+    padding: 10px;
+    color: yellowgreen;
+    font-size: 1 rem;
+    margin-top: 20px;
+}
+.btn{
+    display: flex; 
+    flex-wrap: wrap;
+}
+button{
+    flex: 20%;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 70px;
+    box-shadow: -7px -7px 10px pink;
+    color: yellowgreen;
+}
+.diff{
+    color:tomato;
+}
